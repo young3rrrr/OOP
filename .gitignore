@@ -1,0 +1,89 @@
+# Build and temporary directories (CMake, Ninja, Make)
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Object files and compiled binaries
+*.o
+*.obj
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.d
+
+# Generated Qt files (moc, uic, rcc)
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+.qmake.stash
+.qmake.cache
+
+# Qt Creator settings
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# IDE and editor settings
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+.kdev4/
+*.sublime-project
+*.sublime-workspace
+.clangd/
+.cache/
+
+# Editor temporary files (Vim, Emacs, Kate, gedit)
+*.swp
+*.swo
+*~
+.*.sw[a-p]
+.*.kate-swp
+\#*\#
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.directory
+
+# Debug dumps and profiling
+core
+core.*
+*.gcda
+*.gcno
+gmon.out
+*.log
+*.dSYM/
